@@ -13,7 +13,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 @SpringApplicationConfiguration(classes = ApplicationConfiguration.class)
-public class GoogleSteps {
+public class SearchSteps {
 
   @Autowired
   private GooglePage googlePage;
@@ -35,3 +35,4 @@ public class GoogleSteps {
   }
 
 }
+

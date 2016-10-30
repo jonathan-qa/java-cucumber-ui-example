@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = { "pretty", "html:target/cucumber/", "json:target/cucumber/cucumber.json" }, features = { "src/test/resources/features/google.feature" }, tags = { "~@ignore" })
-public class GoogleTest {
+public class SearchTest {
 
   @Autowired
   private static SetupWebDriver webDriver = new SetupWebDriver();
