@@ -8,7 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty", "html:target/cucumber/", "json:target/cucumber/cucumber.json"},
-        features = {"src/test/resources/features/search.feature"}, tags = {"~@ignore"})
+                 features = {"src/test/resources/features/search.feature"}, tags = {"~@ignore"})
+
 public class SearchTest {
 
     @Autowired

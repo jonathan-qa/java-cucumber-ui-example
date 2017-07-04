@@ -1,7 +1,10 @@
 /home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/page/GooglePage.java
+/home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/steps/NinjaInvoiceSteps.java
 /home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/SearchTest.java
 /home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/MeuPrimeiroTeste.java
 /home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/page/CommonsPage.java
 /home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/steps/BaseSteps.java
 /home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/steps/SearchSteps.java
+/home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/NinjaInvoiceTest.java
 /home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/steps/LoginWebServiceSteps.java
+/home/CIT/jonathans/poc-tests/tests-e2e-foundation/src/test/java/com/e2e/page/NinjaPage.java

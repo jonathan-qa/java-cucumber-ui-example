@@ -21,14 +21,6 @@ public abstract class CommonsPage {
   @Autowired
   private TakeScreenshot takeScreenshot;
 
-  @Value("${front.url}")
-  private String baseUrl;
-
-  public void openPage() {
-    getWebDriver().get(baseUrl + getResource());
-    initElements();
-  }
-
   public String getCookieValue(String cookieName) {
     explicitWait().until(new Function<WebDriver, Boolean>() {
       @Override

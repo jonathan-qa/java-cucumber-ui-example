@@ -18,7 +18,6 @@ public class SetupWebDriver {
       Capabilities caps = new DesiredCapabilities();
       ((DesiredCapabilities) caps).setJavascriptEnabled(true);
       ((DesiredCapabilities) caps).setCapability("takesScreenshot", true);
-      System.setProperty("webdriver.chrome.driver", "/media/jonathans/Data/test-guru99/chromedriver");
       webDriver = new ChromeDriver(caps);
     }
 

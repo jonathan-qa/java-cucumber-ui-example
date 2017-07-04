@@ -22,6 +22,7 @@ public class SearchSteps {
   public void i_want_to_search_at_Google(String keyword) throws Throwable {
     googlePage.openPage();
     googlePage.getSearchTextField().sendKeys(keyword);
+
   }
 
   @When("^I choose option Search$")

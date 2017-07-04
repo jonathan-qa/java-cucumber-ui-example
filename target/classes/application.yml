@@ -1,5 +1,9 @@
-front: 
+front:
   url: http://www.google.com.br
+ninja:
+  private:
+    url: https://ninjainvoices.herokuapp.com/home_private
+  url: https://ninjainvoices.herokuapp.com/login
 screenshots:
   path: target/evidences
 

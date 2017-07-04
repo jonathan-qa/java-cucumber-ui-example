@@ -23,7 +23,7 @@ public class LoginWebServiceSteps {
 
     private String user;
     private RequestSpecification request;
-    private String password;
+
     private Response response;
 
 
@@ -37,7 +37,7 @@ public class LoginWebServiceSteps {
 
     @Given("^I have an user \"([^\"]*)\"$")
     public void iHaveAnUser(String user) throws Throwable {
-        this.request = given().baseUri("http://azul-tito.cit:81").contentType(ContentType.JSON);
+        this.request = given().baseUri("https://ninjainvoices.herokuapp.com/login").contentType(ContentType.JSON);
         this.user = user;
     }
 
