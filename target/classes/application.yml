@@ -1,0 +1,7 @@
+front: 
+  url: http://www.google.com.br
+screenshots:
+  path: target/evidences
+
+logging:
+  file: target/logs/end_to_end.log

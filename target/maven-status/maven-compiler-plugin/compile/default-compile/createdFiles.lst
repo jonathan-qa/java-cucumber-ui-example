@@ -1,0 +1,4 @@
+com/e2e/util/TakeScreenshot.class
+com/e2e/SetupWebDriver.class
+com/e2e/ApplicationConfiguration.class
+com/e2e/util/ObjectStore.class

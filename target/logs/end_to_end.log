@@ -1,0 +1,5 @@
+2017-07-03 13:33:45.127  INFO 12447 --- [main] com.e2e.steps.LoginWebServiceSteps       : Starting LoginWebServiceSteps on lnxcit009559bh with PID 12447 (/home/CIT/jonathans/poc-tests/tests-e2e-foundation/target/test-classes started by jonathans in /home/CIT/jonathans/poc-tests/tests-e2e-foundation)
+2017-07-03 13:33:45.127  INFO 12447 --- [main] com.e2e.steps.LoginWebServiceSteps       : No active profile set, falling back to default profiles: default
+2017-07-03 13:33:45.300  INFO 12447 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b7e96a: startup date [Mon Jul 03 13:33:45 BRT 2017]; root of context hierarchy
+2017-07-03 13:33:46.355  INFO 12447 --- [main] com.e2e.steps.LoginWebServiceSteps       : Started LoginWebServiceSteps in 1.487 seconds (JVM running for 2.487)
+2017-07-03 13:33:46.412  INFO 12447 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b7e96a: startup date [Mon Jul 03 13:33:45 BRT 2017]; root of context hierarchy
