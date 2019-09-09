@@ -7,10 +7,10 @@
 - [Gherkin](https://plugins.jetbrains.com/plugin/7211-gherkin)
 - [Cucumber](https://plugins.jetbrains.com/plugin/7212-cucumber-for-java)
 
-### How to run 2e2 test
+### How to run e2e test
 
 - mvn test
-- mvn test -Dcucumber.options="src/test/resources/features/checkoutMasterPricer.feature"
+- mvn test -Dcucumber.options="src/test/resources/features/FEATURE.feature"
 
 # Remove existing downloads and binaries so we can start from scratch.
  - sudo apt-get remove google-chrome-stable
