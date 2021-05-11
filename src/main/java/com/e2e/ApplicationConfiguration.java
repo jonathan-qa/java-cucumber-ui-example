@@ -21,6 +21,16 @@ Sentry.init(options -> {
   options.setDsn("https://bc9f31d799d8414995339da94b5dee0a@o302092.ingest.sentry.io/5760008");
 });
 
+  
+import java.lang.Exception;
+import io.sentry.Sentry;
+
+try {
+  throw new Exception("This is a test.");
+} catch (Exception e) {
+  Sentry.captureException(e);
+}
+  
   @Bean
   public static PropertySourcesPlaceholderConfigurer properties() {
     PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
