@@ -18,6 +18,12 @@
  - rm ~/chromedriver_linux64.zip
  - sudo rm /usr/local/bin/chromedriver
  - sudo rm /usr/local/bin/selenium-server-standalone.jar
+  - sudo rm /usr/local/bin/selenium-server-standalone.jar
+   - sudo rm /usr/local/bin/selenium-server-standalone.jar
+    - sudo rm /usr/local/bin/selenium-server-standalone.jar
+
+
+    Alessandro
 
 # Install dependencies.
  - sudo apt-get update
